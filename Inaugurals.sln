@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inaugurals", "Inaugurals\Inaugurals.csproj", "{97CA156F-B111-4C19-8C91-A442C07E8EDA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpielInsights", "ClassLibrary1\SpielInsights.csproj", "{AE3061FD-C389-4BFD-A52D-5C30ED01FDEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97CA156F-B111-4C19-8C91-A442C07E8EDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97CA156F-B111-4C19-8C91-A442C07E8EDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97CA156F-B111-4C19-8C91-A442C07E8EDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97CA156F-B111-4C19-8C91-A442C07E8EDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE3061FD-C389-4BFD-A52D-5C30ED01FDEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE3061FD-C389-4BFD-A52D-5C30ED01FDEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE3061FD-C389-4BFD-A52D-5C30ED01FDEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE3061FD-C389-4BFD-A52D-5C30ED01FDEF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AEB52865-A4D5-4C7F-9DDC-0B4B10856A4D}
+	EndGlobalSection
+EndGlobal

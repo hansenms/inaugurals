@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Inaugurals": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Users\\mihansen\\Source\\Repos\\Inaugurals\\Inaugurals\\resources\\inaugurals.txt  426d886873f24706be02c85ef572638e c:\\temp\\inaugural_analysis.txt"
+    }
+  }
+}

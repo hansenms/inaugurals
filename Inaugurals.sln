@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inaugurals", "Inaugurals\In
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpielInsights", "SpielInsights\SpielInsights.csproj", "{9615D72F-401D-4BD9-B0A7-3F3238913186}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnalyzeSpiels", "AnalyzeSpiels\AnalyzeSpiels.csproj", "{5EC92716-940B-445F-A266-1D69705D7372}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{9615D72F-401D-4BD9-B0A7-3F3238913186}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9615D72F-401D-4BD9-B0A7-3F3238913186}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9615D72F-401D-4BD9-B0A7-3F3238913186}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EC92716-940B-445F-A266-1D69705D7372}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EC92716-940B-445F-A266-1D69705D7372}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EC92716-940B-445F-A266-1D69705D7372}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EC92716-940B-445F-A266-1D69705D7372}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

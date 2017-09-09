@@ -58,21 +58,37 @@ namespace SpielInsights
         public List<string> Paragraphs { get; set; }
     }
 
+    public class AnalyzedSpiel
+    {
+        public Spiel Spiel { get; set; }
+        public SpielAnalytics SpielAnalytics { get; set; }
+    }
+
     public class SpielInsights
     {
-        static public string SpielToJson(Spiel s)
+        static public string ToJson<T>(T obj)
         {
-            JsonSerializer serializer = new JsonSerializer();
-            serializer.NullValueHandling = NullValueHandling.Ignore;
+            return JsonConvert.SerializeObject(obj);
+        }
 
-            StringBuilder sb = new StringBuilder();
-            using (TextWriter tw = new StringWriter(sb))
-            using (JsonWriter writer = new JsonTextWriter(tw))
-            {
-                serializer.Serialize(writer, s);
-            }
+        static public void ToJson<T>(T obj, string fileName)
+        {
+            System.IO.StreamWriter outputFile = new System.IO.StreamWriter(fileName);
+            string jsonString = ToJson(obj);
+            outputFile.Write(jsonString);
+            outputFile.Close();
+        }
 
-            return sb.ToString();
+        static public T FromJson<T>(string json)
+        {
+            T obj = JsonConvert.DeserializeObject<T>(json);
+            return obj;
+        }
+
+        static public T FromJsonFile<T>(string jsonFile)
+        {
+            string jsonText = System.IO.File.ReadAllText(jsonFile);
+            return FromJson<T>(jsonText);
         }
 
         static public SpielAnalytics AnalyzeSpiel(Spiel spiel, string apiKey)
